@@ -1,0 +1,46 @@
+.Background{
+    
+    margin-left: 38%;
+    margin-top: 5%;
+    width: 450px;
+    height: 497px;
+    border: 20px;
+    background-color: #FBFAF5;
+}
+
+.loginbox
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+form input[type="text"]{
+    
+    padding: 7px 1px;
+    margin: 3px 0;
+    width: 100%;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+body {
+    background-color: grey;
+}
+
+.login{
+    margin-left: 15px;
+    padding: 30px 60px;
+    background-color: yellow;
+    border-radius: 10px;
+    color: black;
+    cursor: pointer;
+    border-color: #ccc;
+
+}
+
+.login:hover{
+    background: #EEEE9B
+}
+
+
