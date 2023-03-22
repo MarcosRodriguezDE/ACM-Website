@@ -3,44 +3,54 @@
     margin-left: 38%;
     margin-top: 5%;
     width: 450px;
-    height: 497px;
-    border: 20px;
-    background-color: #FBFAF5;
+    height: 300px;
+    border: 25px;
+    background-color: #DEDEDE;
+    border-color: black;
 }
 
-.loginbox
-{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
+
 
 form input[type="text"]{
     
+    
     padding: 7px 1px;
-    margin: 3px 0;
-    width: 100%;
+    margin: 10px 100px;
+    width: 60%;
     border-radius: 5px;
     border: 1px solid #ccc;
+    background-color: #c4c4c4;
+    
+    
 }
 
 body {
-    background-color: grey;
+  
+    background-color: #F3D25C;
+   
 }
 
 .login{
-    margin-left: 15px;
-    padding: 30px 60px;
-    background-color: yellow;
+    margin-left: 165px;
+    padding: 15px 30px;
+    background-color: #c4c4c4;
     border-radius: 10px;
     color: black;
     cursor: pointer;
     border-color: #ccc;
 
 }
-
+/* anything involing .login is the login button */
 .login:hover{
     background: #EEEE9B
 }
-
+*{
+    font-size: small;
+    font-family: 'DM mono', monospace;
+}
+/* These are for dealing with the Text and lettering */
+.ACC_Recovery{
+    text-indent: 105px;
+    
+}
 
